@@ -9,9 +9,10 @@ CONFIGURATION
 -------------
 
 ### Database
+Unzip sql file from `events_manager.zip` and import database into SQL Server.
 
-Change the file `config/db.php.example` to `db.php`.
- Edit the file `db.php` with real data, for example:
+Change the file name `config/db.php.example` to `config/db.php`.
+Edit the file `db.php` with real data, for example:
 
 ```php
 return [
